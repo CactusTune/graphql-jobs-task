@@ -1,0 +1,56 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    margin: .5rem auto;
+    padding: .5rem;
+    border: 1px black solid;
+    border-radius: .5rem;
+}
+
+.company {
+    flex-basis: 50%;
+}
+
+.company h1 {
+    margin: 0;
+}
+
+.tags span {
+    border: 2px solid rgb(0, 0, 0, .5);
+    border-radius: .25rem;
+    margin: .25rem;
+    padding: .25rem;
+}
